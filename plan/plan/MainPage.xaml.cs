@@ -14,13 +14,13 @@ namespace plan
 		{
 			InitializeComponent();
 			StackLayout st = new StackLayout();
-			Button mon_btn = new Button { Text = "Monday" };
-			Button tue_btn = new Button { Text = "Tuesday" };
-			Button wed_btn = new Button { Text = "Wednesday" };
-			Button thu_btn = new Button { Text = "Thursday" };
-			Button fri_btn = new Button { Text = "Friday" };
-			Button sat_btn = new Button { Text = "Saturday" };
-			Button sun_btn = new Button { Text = "Sunday" };
+			Button mon_btn = new Button { Text = "Monday", BackgroundColor = Color.Coral,ImageSource="tv.png"  };
+			Button tue_btn = new Button { Text = "Tuesday", BackgroundColor = Color.LightBlue,ImageSource=""   };
+			Button wed_btn = new Button { Text = "Wednesday", BackgroundColor = Color.LightGreen, ImageSource=""};
+			Button thu_btn = new Button { Text = "Thursday", BackgroundColor = Color.Red, ImageSource="" };
+			Button fri_btn = new Button { Text = "Friday", BackgroundColor = Color.Red};
+			Button sat_btn = new Button { Text = "Saturday", BackgroundColor = Color.Red };
+			Button sun_btn = new Button { Text = "Sunday", BackgroundColor = Color.Red };
 
 			st.Children.Add(mon_btn);
 			st.Children.Add(tue_btn);
