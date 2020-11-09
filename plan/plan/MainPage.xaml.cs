@@ -14,7 +14,7 @@ namespace plan
 		{
 			InitializeComponent();
 			StackLayout st = new StackLayout();
-			Button mon_btn = new Button { Text = "Monday", BackgroundColor = Color.Coral,ImageSource="tv.png"  };
+			Button mon_btn = new Button { Text = "Monday", BackgroundColor = Color.Coral,ImageSource=""  };
 			Button tue_btn = new Button { Text = "Tuesday", BackgroundColor = Color.LightBlue,ImageSource=""   };
 			Button wed_btn = new Button { Text = "Wednesday", BackgroundColor = Color.LightGreen, ImageSource=""};
 			Button thu_btn = new Button { Text = "Thursday", BackgroundColor = Color.Red, ImageSource="" };

@@ -21,13 +21,13 @@ namespace plan
 			list.ItemSelected += List_ItemSelected;
 			Content = new StackLayout { Children = { list } };
 		}
-		string time;
+		string time, text;
 		private async void List_ItemSelected(object sender, SelectedItemChangedEventArgs e)
 		{
 			if (e.SelectedItem != null)
 			{
 				string text = e.SelectedItem.ToString();
-				if (e.SelectedItemIndex == 0)
+				if (e.SelectedItemIndex == 0)//просыпаемся 
 				{
 					time = "12:05";
 				}
@@ -109,8 +109,10 @@ namespace plan
 			    else if (e.SelectedItemIndex == 14)//спать
 			   {
 			    	time = "А мы точно легли????????";
-			   }
-			await DisplayAlert(time, text, "Да");
+		   	   }
+			     await DisplayAlert(time, text, "Да");
+			}
+			
 		}
 	}
-  }
+  
