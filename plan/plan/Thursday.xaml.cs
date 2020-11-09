@@ -28,72 +28,72 @@ namespace plan
 				string text = e.SelectedItem.ToString();
 				if (e.SelectedItemIndex == 0)//подъём
 				{
-					time = "13:05";
+					time = "9:05";
 				}
 
 				else if (e.SelectedItemIndex == 1)//умываемся
 				{
-					time = "13:12";
+					time = "9:10";
 				}
 
 				else if (e.SelectedItemIndex == 2)//грабим Эрика на еду
 				{
-					time = "13:45";
+					time = "9:42";
 				}
 
 				else if (e.SelectedItemIndex == 3)//собираемся и крадём Эрика
 				{
-					time = "14:25";
+					time = "10:55";
 				}
 
 				else if (e.SelectedItemIndex == 4)//приезжаем в аэропорт
 				{
-					time = "14:55";
+					time = "11:25";
 				}
 
-				else if (e.SelectedItemIndex == 5)// прилетаем в РГонконг
+				else if (e.SelectedItemIndex == 5)// прилетаем в Гонконг
 				{
-					time = "18:05";
+					time = "14:05";
 				}
 
 				else if (e.SelectedItemIndex == 6)//подселяемся к Артёму
 				{
-					time = "18:25";
+					time = "14:50";
 				}
 
 				else if (e.SelectedItemIndex == 7)//устраиваем тусу
 				{
-					time = "19:00";
+					time = "15:33";
 				}
 
 				else if (e.SelectedItemIndex == 8)//закупаемся
 				{
-					time = "19:13";
+					time = "15:44";
 				}
 
 				else if (e.SelectedItemIndex == 9)//готовимся к тусе
 				{
-					time = "20:54";
+					time = "16:15";
 				}
 
 				else if (e.SelectedItemIndex == 10)//тусим
 				{
-					time = "01:00";
+					time = "18:00";
 				}
 
 				else if (e.SelectedItemIndex == 11)//заканчиваем тусу
 				{
-					time = "01:25";
+					time = "05:25";
 				}
 
 				else if (e.SelectedItemIndex == 12)//Артём нанимает уборщиц
 				{
-					time = "А мы точно легли????????";
+					time = "06:30";
 				}
 
 				else if (e.SelectedItemIndex == 13)//чиллим ТОЛЬКО с Наташей
 				{
-					time = "01:25";
+					time = "07:25";
 				}
 
 				else if (e.SelectedItemIndex == 14)//спать?
