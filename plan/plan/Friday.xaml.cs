@@ -101,12 +101,12 @@ namespace plan
 					time = "22:00";
 				}
 
-		    	else if (e.SelectedItemIndex == 13)//чиллим под пивас и квас
+		    	else if (e.SelectedItemIndex == 15)//чиллим под пивас и квас
 		    	{
 				    time = "22:10";
 			    }
 
-			    else if (e.SelectedItemIndex == 14)//спать
+			    else if (e.SelectedItemIndex == 16)//спать
 			   {
 			    	time = "А мы точно легли????????";
 		   	   }
